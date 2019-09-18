@@ -1,6 +1,7 @@
-
 import jogovelha
 import sys
+
+
 
 erroInicializar = False
 jogo = jogovelha.inicializar()
