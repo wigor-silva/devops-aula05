@@ -9,9 +9,9 @@ def inicializar ():
         return tab 
 
 
-    def main() :
-        jogo=inicializar()
-        print(jogo)
+def main() :
+    jogo=inicializar()
+    print(jogo)
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,6 @@
 #Arquitetura 
 
-*AS funçoes relacionadas ao gereciamento das casas do joj da velha ficarao no modulo **jogovekha.py**
+*AS funçoes relacionadas ao gereciamento das casas do joj da velha ficarao no modulo **jogovelha.py**
 
 *o  estado da cada casa do jogo sera representada por uma string: "." para vazia; "x" para casa ocupada pelo 1 jogador; "o" para casa ocupada pelo 2 jogador 
 
