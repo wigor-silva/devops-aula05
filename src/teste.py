@@ -4,7 +4,7 @@ import sys
 
 
 erroInicializar = False
-jogo = jogovelha()
+jogo = jogovelha.Inicializar() 
 
 if len(jogo) != 3:
     erroInicializar = True
