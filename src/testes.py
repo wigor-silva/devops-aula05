@@ -2,8 +2,17 @@
 import jogovelha
 import sys
 
+def inicializar():
+    tab = [ ]
+    for i in range(3):
+       linha = [ ]
+       for j in range(3):
+           linha.append(".")
+           tab.append(linha)
+           return tab
+
 erroInicializar = False
-jogo = jogovelha.inicializar()
+jogo = inicializar()
 
 if len(jogo) != 3:
     erroInicializar = True
