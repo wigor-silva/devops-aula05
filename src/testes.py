@@ -1,20 +1,9 @@
+
 import jogovelha
 import sys
-import jogovelha
-
-def inicializar():
-    tab = [ ]
-    for i in range(3):
-       linha = [ ]
-       for j in range(3):
-           linha.append(".")
-           tab.append(linha)
-           return tab
-
-
 
 erroInicializar = False
-jogo = jogovelha.Inicializar() 
+jogo = jogovelha.inicializar()
 
 if len(jogo) != 3:
     erroInicializar = True
