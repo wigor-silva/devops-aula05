@@ -1,5 +1,6 @@
 import jogovelha
 import sys
+import jogovelha
 
 def inicializar():
     tab = [ ]
